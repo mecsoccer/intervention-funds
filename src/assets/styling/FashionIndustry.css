@@ -1,0 +1,168 @@
+.main{
+    padding-top: 77px;
+}
+#fashion-funds-banner{
+    background: transparent url('../img/Group 849.png') center center no-repeat padding-box;
+}
+.banner{
+    height: auto;
+    width: 100%;
+    background-size: cover !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.banner h1{
+    text-align: center;
+    font: 400 35px/45px Julius Sans One;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.banner p{
+    text-align: center;
+    font: 300 18px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+.banner a{
+    text-decoration: underline;
+    font: Light 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.img-txt-section{
+    padding: 130px 2% 50px;
+}
+.img1-txt2-display, .txt1-img2-display{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.txt1-img2-display div:first-child{
+    display: none;
+}
+
+.img1-txt2-display div:first-child{
+    display: none;
+}
+.img1-txt2-display div:last-child{
+    width: 100%;
+}
+.img1-txt2-display h2, .txt1-img2-display h2{
+    text-align: left;
+    font: 400 45px/49px Julius Sans One;
+    letter-spacing: 0px;
+    color: #707070;
+}
+.img1-txt2-display ul, .txt1-img2-display ul, .img1-txt2-display p, .txt1-img2-display p{
+    list-style: none;
+    text-align: left;
+    font: 300 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    padding: 0;
+}
+.img1-txt2-display ul li, .txt1-img2-display ul li{
+    display: flex;
+    margin: 2px 0;
+}
+
+.apply-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0 100px;
+}
+.apply-section hr{
+    width: 40%;
+}
+.apply-section h3{
+    width: 100%;
+    text-align: center;
+    font: 400 45px/49px Julius Sans One;
+    letter-spacing: 0px;
+    color: #707070;
+}
+.apply-section button{
+    
+}
+
+@media screen and (min-width: 350px) {
+    .main{
+        padding-top: 77px;
+    }
+    .banner h1{
+        font: 400 40px/50px Julius Sans One;
+    }
+    .banner p{
+        font: 300 18px/30px Open Sans;
+        max-width: 90%;
+    }
+    .banner a{
+        font: Light 18px/24px Open Sans;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .main{
+        padding-top: 77px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .banner{
+        height: 517px;
+    }
+    .banner h1{
+        font: 400 71px/77px Julius Sans One;
+    }
+    .banner p{
+        font: 300 18px/24px Open Sans;
+        max-width: 690px;
+    }
+    .banner a{
+        font: Light 18px/24px Open Sans;
+    }
+    .img-txt-section{
+        padding: 130px 10% 50px;
+    }
+    .img1-txt2-display{
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 250px;
+    }
+    .img1-txt2-display div:first-child{
+        width: 100%;
+        background-size: cover !important;
+        display: block;
+    }
+    .txt1-img2-display{
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 250px;
+    }
+    .txt1-img2-display div:first-child{
+        width: 100%;
+        background-size: cover !important;
+        display: block;
+    }
+    .img1-txt2-display div:last-child{
+        padding-left: 16px;
+    }
+    .img1-txt2-display h2{
+        margin-top: 0;
+    }
+    .img1-txt2-display ul li{
+        display: flex;
+        margin: 4px 0;
+    }
+}
